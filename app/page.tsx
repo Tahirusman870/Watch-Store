@@ -6,7 +6,7 @@ import { AppContext } from "./context/AppContext";
 
 export default function Home() {
   const [showCart, setShowCart] = useState(false);
-  // console.log(showCart);
+  console.log(showCart);
 
   return (
     <AppContext.Provider value={{ showCart, setShowCart }}>
