@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 
+
+
 const Card = ({ product }: any) => {
   return (
     <Link href={`/product/${product.slug.current}`}>
