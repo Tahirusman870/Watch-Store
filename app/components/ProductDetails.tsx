@@ -46,11 +46,10 @@ const ProductDetails = ({ product }: any) => {
         </div>
 
         {/* Right */}
-        <div className="flex flex-col gap-8 md:pt-12 pt-0">
+        <div className="flex flex-col gap-8 md:pt-32 pt-0">
           <div className="flex flex-col gap-4">
             <div className="text-3xl font-bold">{product.name}</div>
-            <div className="text-xl font-medium">${product.price}</div>
-            <div>{product.description}</div>
+            <div className="text-xl font-medium">{product.price}</div>
           </div>
 
           <div className="flex gap-2 items-center">
